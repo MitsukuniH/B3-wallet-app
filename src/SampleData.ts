@@ -1,0 +1,44 @@
+import { User } from "./interface";
+
+export const USERS:Array<User> = [
+    {
+        name:"user_00",
+        address:"t1odG80V",
+        balance:100
+    },
+    {
+        name:"user_01",
+        address:"NSSwPVUm",
+        balance:100
+    },
+    {
+        name:"user_02",
+        address:"hqqyrX5q",
+        balance:100
+    },
+    {
+        name:"user_03",
+        address:"v7AbEWeP",
+        balance:100
+    },
+    {
+        name:"user_04",
+        address:"bbK5ucFU",
+        balance:100
+    },
+    {
+        name:"user_05",
+        address:"CBiw7HcT",
+        balance:100
+    },
+    {
+        name:"user_06",
+        address:"iYJliAQ7",
+        balance:100
+    },
+    {
+        name:"user_07",
+        address:"SEbyM8Ny",
+        balance:100
+    }
+]
