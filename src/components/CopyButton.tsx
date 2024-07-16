@@ -2,6 +2,7 @@ import { Button, Tooltip } from "@mui/material";
 import { useState } from "react";
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 
+//クリップボードにコピーするボタン
 export const CopyButton = (
   {text}:{text:string}
 )=>{

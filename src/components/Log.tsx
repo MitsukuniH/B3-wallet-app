@@ -1,6 +1,14 @@
 import { Box, List, ListItem } from "@mui/material"
 
-export const Log = ({log}:{log:Array<string>}) => {
+//取引履歴
+export const Log = () => {
+  const data = localStorage.getItem("transitions");
+  let log:Array<string>;
+  if(!data){
+    log = ["取引はありません"];
+  } else {
+    log = data.split(",");
+  }
   return(
     <Box overflow="scroll" height="32rem">
       <List >

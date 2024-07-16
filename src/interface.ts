@@ -1,3 +1,5 @@
+import { Dispatch, SetStateAction } from "react"
+
 export interface User{
     name:string
     address:string
@@ -8,3 +10,4 @@ export interface transaction{
     to:string
     amount:number
 }
+export type SetState<t> = Dispatch<SetStateAction<t>>
